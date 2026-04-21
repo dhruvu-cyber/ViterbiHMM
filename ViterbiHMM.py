@@ -2,7 +2,7 @@ import math
 import numpy as np
 
 states = {"s": 0, "E": 1, "5": 2, "I" : 3, "e": 4}
-id2state = {0: "s", 1: "E", 2: "5", 3: "I", 4: "e"}
+id2state = {0: "s", 1: "E", 2: "5", 3: "I", 4: "e"} 
 
 state_transition_prob = np.array([[0.0, 1.0, 0.0, 0.0, 0.0], 
                                   [0.0, 0.9, 0.1, 0.0, 0.0], 
